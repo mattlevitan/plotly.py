@@ -12,7 +12,6 @@ from math import log, floor
 from numbers import Number
 
 pd.options.mode.chained_assignment = None
-
 shapely = optional_imports.get_module('shapely')
 shapefile = optional_imports.get_module('shapefile')
 gp = optional_imports.get_module('geopandas')
@@ -27,7 +26,6 @@ def _create_us_counties_df(st_to_state_name_dict, state_to_st_dict):
 
     abs_package_data_dir_path = os.path.join(abs_plotly_dir_path,
                                              'package_data')
-
     shape_pre2010 = 'gz_2010_us_050_00_500k.shp'
     shape_pre2010 =  os.path.join(abs_package_data_dir_path, shape_pre2010)
 

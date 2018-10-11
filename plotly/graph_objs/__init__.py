@@ -84,3 +84,5 @@ from ._deprecations import (
     ErrorX, ErrorY, ErrorZ, Font, Legend, Line, Margin, Marker, RadialAxis,
     Scene, Stream, XAxis, YAxis, ZAxis, XBins, YBins, Trace, Histogram2dcontour
 )
+
+print("Imported local")
